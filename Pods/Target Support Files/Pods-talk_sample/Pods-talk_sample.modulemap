@@ -1,0 +1,6 @@
+framework module Pods_talk_sample {
+  umbrella header "Pods-talk_sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
