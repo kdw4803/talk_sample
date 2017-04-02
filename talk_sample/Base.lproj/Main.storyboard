@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pre Auth View Controller-->
         <scene sceneID="ExD-Zq-3MM">
             <objects>
-                <viewController id="w0g-gq-NlL" sceneMemberID="viewController">
+                <viewController id="w0g-gq-NlL" customClass="PreAuthViewController" customModule="talk_sample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7x6-KN-Xh1"/>
                         <viewControllerLayoutGuide type="bottom" id="HHq-Qi-Aed"/>
@@ -147,13 +147,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo8-ew-Qqi">
+                                <rect key="frame" x="164" y="390" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="08z-98-ss1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Epx-bt-68q" firstAttribute="top" secondItem="iBn-mX-4QX" secondAttribute="bottom" constant="8" symbolic="YES" id="Heh-SS-vEz"/>
+                            <constraint firstItem="Qo8-ew-Qqi" firstAttribute="top" secondItem="Epx-bt-68q" secondAttribute="bottom" constant="8" symbolic="YES" id="UK9-ty-QWa"/>
                             <constraint firstItem="iBn-mX-4QX" firstAttribute="centerX" secondItem="Epx-bt-68q" secondAttribute="centerX" id="YaG-7g-TsV"/>
                             <constraint firstItem="iBn-mX-4QX" firstAttribute="centerX" secondItem="8SM-pz-hxC" secondAttribute="centerX" id="aE3-Op-BZj"/>
                             <constraint firstItem="iBn-mX-4QX" firstAttribute="centerY" secondItem="8SM-pz-hxC" secondAttribute="centerY" id="bcC-MN-RPX"/>
+                            <constraint firstItem="Qo8-ew-Qqi" firstAttribute="centerX" secondItem="Epx-bt-68q" secondAttribute="centerX" id="w3K-Fg-Wy4"/>
                         </constraints>
                     </view>
                     <connections>
@@ -256,7 +265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+            <point key="canvasLocation" x="3092" y="-538"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LgY-rv-TkZ">

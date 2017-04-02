@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21370DA4F6F1F287B33DCB0A /* Pods_talk_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27B2535D889487E84BED7C /* Pods_talk_sample.framework */; };
+		A22760D31E911F81001D217C /* PreAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22760D21E911F81001D217C /* PreAuthViewController.swift */; };
 		A29E434F1E8AA40A006DEB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29E434E1E8AA40A006DEB4C /* AppDelegate.swift */; };
 		A29E43511E8AA40A006DEB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29E43501E8AA40A006DEB4C /* ViewController.swift */; };
 		A29E43541E8AA40A006DEB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29E43521E8AA40A006DEB4C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		78E3EDE17C57C9CC60FD723F /* Pods-talk_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talk_sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-talk_sample/Pods-talk_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		A22760D21E911F81001D217C /* PreAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreAuthViewController.swift; sourceTree = "<group>"; };
 		A29E434B1E8AA40A006DEB4C /* talk_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talk_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29E434E1E8AA40A006DEB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A29E43501E8AA40A006DEB4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				A29E43601E8AA524006DEB4C /* GoogleService-Info.plist */,
 				A2BC1CE11E8D2A6900982BC8 /* AuthViewController.swift */,
 				A2BC1CE31E8D33AC00982BC8 /* MainViewController.swift */,
+				A22760D21E911F81001D217C /* PreAuthViewController.swift */,
 			);
 			path = talk_sample;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A29E43511E8AA40A006DEB4C /* ViewController.swift in Sources */,
+				A22760D31E911F81001D217C /* PreAuthViewController.swift in Sources */,
 				A2BC1CE21E8D2A6900982BC8 /* AuthViewController.swift in Sources */,
 				A29E434F1E8AA40A006DEB4C /* AppDelegate.swift in Sources */,
 				A2BC1CE41E8D33AC00982BC8 /* MainViewController.swift in Sources */,
